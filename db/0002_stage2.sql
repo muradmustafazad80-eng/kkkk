@@ -95,7 +95,6 @@ DO $$ BEGIN
   END IF;
 END $$;
 
-DROP INDEX IF EXISTS "Service_name_key";
 DROP INDEX IF EXISTS "Barber_name_key";
 DROP INDEX IF EXISTS "BusinessSetting_key_key";
 CREATE UNIQUE INDEX IF NOT EXISTS "Customer_businessPhone_key" ON "Customer" ("businessId", "phone");
