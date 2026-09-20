@@ -95,7 +95,6 @@ DO $$ BEGIN
   END IF;
 END $$;
 
-DROP INDEX IF EXISTS "Customer_phone_key";
 DROP INDEX IF EXISTS "Service_name_key";
 DROP INDEX IF EXISTS "Barber_name_key";
 DROP INDEX IF EXISTS "BusinessSetting_key_key";
